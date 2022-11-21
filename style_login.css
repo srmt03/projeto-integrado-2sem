@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/fotos-premium/pizza-de-pepperoni-saboroso-em-um-fundo-concreto-preto_79782-103.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    padding: 32px;
+}
+.login h1{
+    color: white;
+}
+.login span{
+    color: white;
+}
+.login input{
+    height: 50px;
+    width: 350px;
+}
+.login-button{
+    height: 40px;
+    width: 100px;
+}
