@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul, ol {
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/fotos-premium/fundo-de-textura-de-parede-de-concreto-de-cimento-abstrato-preto-escuro_130147-3848.jpg?w=2000);
+    background-blend-mode: darken;
+    background-color: #26343593;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 94px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+header .title{
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+}
+.nav_cms{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    gap: 32px;
+    
+}
+.menu_user{
+    background-color: #454949;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+}
+.menu_user i{
+    font-size: 35px;
+}
+.menu_user:hover{
+    background-color: white;
+    transition: all 0.5s;
+    color: black;
+}
+.menu_product{
+    background-color: #454949;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+}
+.menu_product i{
+    font-size: 35px;
+}
+.menu_product:hover{
+    background-color: white;
+    transition: all 0.5s;
+    color: black;
+}
+.menu_exit{
+    background-color: #454949;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+}
+.menu_exit i{
+    font-size: 35px;
+}
+.menu_exit:hover{
+    background-color: white;
+    transition: all 0.5s;
+    color: black;
+}
