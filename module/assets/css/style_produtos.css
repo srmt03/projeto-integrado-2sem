@@ -117,4 +117,29 @@ main{
     height: 100%;
     width: 100%;
     border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.product{
+    display: flex;
+}
+.container_category{
+    display: flex;
+    flex-direction: column;
+}
+.container_type{
+    display: flex;
+    flex-direction: column;
+}
+.container_name{
+    display: flex;
+    flex-direction: column;
+}
+.container_image{
+    display: flex;
+    flex-direction: column;
+}
+.description{
+    display: flex;
+    flex-direction: column;
 }
